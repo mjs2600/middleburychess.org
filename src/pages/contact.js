@@ -6,6 +6,7 @@ import SEO from "../components/seo";
 function ContactPage() {
   return (
     <Layout>
+      <script id="mcjs">!function(c,h,i,m,p){m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/9e1e19951632a9dcd390ae66e/03a7ff2c205a22b9d3abf670c.js");</script>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Contact"

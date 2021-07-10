@@ -2,5 +2,5 @@
 module.exports = {
   purge: ["./src/**/*.js"],
   // https://github.com/tailwindlabs/tailwindcss-forms
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 };
