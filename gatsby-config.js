@@ -6,6 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Chess Club of Addison County`,
+    shortTitle: `CCAC`,
     description: `The Addison County chess club.`,
     author: `@mjs2600`,
   },

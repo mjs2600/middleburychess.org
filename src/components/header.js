@@ -10,6 +10,7 @@ function Header() {
       site {
         siteMetadata {
           title
+          shortTitle
         }
       }
     }
@@ -21,8 +22,11 @@ function Header() {
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
-            <span className="text-xl font-bold tracking-tight">
+            <span className="hidden sm:inline text-xl font-bold tracking-tight">
               <FontAwesomeIcon icon={faChessRook} /> {site.siteMetadata.title} <FontAwesomeIcon icon={faChessRook} />
+            </span>
+            <span className="sm:hidden text-xl font-bold tracking-tight">
+              <FontAwesomeIcon icon={faChessRook} /> CACC <FontAwesomeIcon icon={faChessRook} />
             </span>
           </h1>
         </Link>
