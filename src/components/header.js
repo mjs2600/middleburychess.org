@@ -15,6 +15,7 @@ function Header() {
     }
   `);
 
+
   return (
     <header className="bg-green-700">
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
@@ -47,7 +48,7 @@ function Header() {
           {[
             {
               route: `/mailing-list`,
-              title: `Mailing List`,
+              title: `Subscribe to our mailing list`,
             },
           ].map((link) => (
             <Link
