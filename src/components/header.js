@@ -26,7 +26,7 @@ function Header() {
               <FontAwesomeIcon icon={faChessRook} /> {site.siteMetadata.title} <FontAwesomeIcon icon={faChessRook} />
             </span>
             <span className="sm:hidden text-xl font-bold tracking-tight">
-              <FontAwesomeIcon icon={faChessRook} /> {site.siteMetadata.shortTitle}<FontAwesomeIcon icon={faChessRook} />
+              <FontAwesomeIcon icon={faChessRook} /> {site.siteMetadata.shortTitle} <FontAwesomeIcon icon={faChessRook} />
             </span>
           </h1>
         </Link>
