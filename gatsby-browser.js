@@ -1,3 +1,3 @@
 import "./src/styles/global.css";
 
-exports.onServiceWorkerUpdateReady = () => window.location.reload();
+export const onServiceWorkerUpdateReady = () => window.location.reload();
