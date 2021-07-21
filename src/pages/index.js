@@ -1,9 +1,10 @@
 import React from "react";
 
 import Layout from "../components/layout";
+import {Schedule} from "../components/schedule";
 import SEO from "../components/seo";
 
-function IndexPage() {
+const IndexPage = () => {
   return (
     <Layout>
       <SEO
@@ -22,12 +23,7 @@ function IndexPage() {
           </p>
         </section>
 
-        <section className="text-left">
-          <h3>Upcoming Meeting Times</h3>
-          <ul>
-            <li>Saturday, July <span className="ordinal">24th</span>, 9:30 AM to 12:30 PM at <a href=" https://g.page/11th-Hour-Botanicals?share">11th Hour Botanicals</a>.</li>
-          </ul>
-        </section>
+        <Schedule />
       </article>
     </Layout >
   );
