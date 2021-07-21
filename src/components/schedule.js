@@ -5,7 +5,7 @@ import {graphql, StaticQuery} from 'gatsby'
 
 const event = ({id, startTime, endTime, location}) => {
   return (
-    <li key={id} className="ordinal">
+    <li key={id}>
       {format(startTime, "eeee, MMMM")} <span className="ordinal">{format(startTime, "do")}</span>, {format(startTime, "h:mm aa")} to {format(endTime, "h:mm aa")} at <a href={location.directions}>{location.name}</a>.
     </li>
   )
