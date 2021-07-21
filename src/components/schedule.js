@@ -42,7 +42,8 @@ export const Schedule = () => (
         .edges
         .map(createDate)
         .filter(({endTime}) => isFuture(endTime))
-      console.log(dates)
+        .sort((a, b) => a.endTime - b.endTime)
+
       let body;
       if (dates.length) {
         body = <ul>{dates.map(event)}</ul>
