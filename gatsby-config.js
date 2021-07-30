@@ -40,6 +40,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
+
         runtimeCaching: [
           {
             // Use cacheFirst since these don't need to be revalidated (same RegExp
@@ -50,7 +51,11 @@ module.exports = {
           {
             // page-data.json files, static query results and app-data.json
             // are not content hashed
-            urlPattern: /^https?:.*\/page-data\/.*\.json/,
+            urlPattern: /^https?:.*\/(app|page)-data\/.*\.json/,
+            handler: `NetworkFirst`,
+          },
+          {
+            urlPattern: /^https?:.*\/$/,
             handler: `NetworkFirst`,
           },
           {
