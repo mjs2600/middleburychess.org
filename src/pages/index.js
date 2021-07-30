@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO
-        keywords={[`chess`, `Middlebury`, `Vermont`, `Addison County`]}
+        keywords={[`chess`, `Middlebury`, `Vermont`, `Addison County`, `Chess Club of Addison County`]}
         title="Home"
       />
       <article className="prose">
@@ -17,7 +17,7 @@ const IndexPage = () => {
 
           <p className="leading-loose">
             Welcome to Chess Club of Addison County.
-            We play regularly on Wednesday afternoons and Saturday mornings in the Marble Works district of Middlebury, Vermont.
+            We play regularly on Saturday mornings in the Marble Works district of Middlebury, Vermont.
             Players of all levels are welcome to come out and play.
             Check the calendar for more information about when and where we will be playing.
           </p>
