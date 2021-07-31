@@ -52,8 +52,8 @@ export const Schedule = () => (
       }
 
       return (
-        <section className="text-left">
-          <h3>Upcoming Meeting Times</h3>
+        <section className="text-left clear-both">
+          <h2>Upcoming Meeting Times</h2>
           {body}
         </section>
       )
