@@ -61,12 +61,12 @@ module.exports = {
           {
             // Add runtime caching of various other page resources
             urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
-            handler: `StaleWhileRevalidate`,
+            handler: `NetworkFirst`,
           },
           {
             // Google Fonts CSS (doesn't end in .css so we need to specify it)
             urlPattern: /^https?:\/\/fonts\.googleapis\.com\/css/,
-            handler: `StaleWhileRevalidate`,
+            handler: `NetworkFirst`,
           },
         ],
 
