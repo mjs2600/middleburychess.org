@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO
-        keywords={[`chess`, `Middlebury`, `Vermont`, `Addison County`, `Chess Club of Addison County`]}
+        keywords={[`chess`, `Middlebury`, `Vermont`, `Addison County`, `Chess Club of Addison County`, `Middlebury Chess Club`]}
         title="Home"
       />
       <article className="prose">

@@ -51,8 +51,12 @@ function Header() {
         >
           {[
             {
+              route: `/equipment`,
+              title: `Chess Equipment`,
+            },
+            {
               route: `/mailing-list`,
-              title: `Subscribe to our mailing list`,
+              title: `Subscribe to Our Mailing List`,
             },
           ].map((link) => (
             <Link
