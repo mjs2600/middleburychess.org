@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import {Schedule} from "../components/schedule";
 import SEO from "../components/seo";
+import Puzzle from "../components/puzzle";
 import CcacLogo from "../images/ccac-logo.jpg";
 
 const IndexPage = () => {
@@ -29,6 +30,7 @@ const IndexPage = () => {
         </section>
 
         <Schedule />
+        <Puzzle />
       </article>
     </Layout >
   );
