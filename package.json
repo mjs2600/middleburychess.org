@@ -10,7 +10,7 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@tailwindcss/typography": "^0.4.1",
     "date-fns": "^2.22.1",
-    "gatsby": "^3.9.1",
+    "gatsby": "^4.0.0",
     "gatsby-core-utils": "^2.9.0",
     "gatsby-link": "^3.9.0",
     "gatsby-plugin-manifest": "^3.9.0",
