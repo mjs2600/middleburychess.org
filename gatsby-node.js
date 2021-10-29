@@ -8,9 +8,9 @@ exports.createSchemaCustomization = ({actions, schema}) => {
     name: String!
   }
   type MeetingsJson implements Node {
-    location: LocationsJson @link(by: "slug")
-    startTime: Date
-    endTime: Date
+    location: LocationsJson! @link(by: "slug")
+    startTime: Date!
+    endTime: Date!
   }
   `
   createTypes(typeDefs)
