@@ -1,12 +1,17 @@
 [
   {
-    "location___NODE": "11th-hour",
-    "startTime": "2021-09-18T09:30",
-    "endTime": "2021-09-18T12:30"
+    "location": "little-seed",
+    "startTime": "2021-10-30T09:20",
+    "endTime": "2021-10-30T11:00"
   },
   {
-    "location___NODE": "11th-hour",
-    "startTime": "2021-09-25T09:30",
-    "endTime": "2021-09-25T12:30"
+    "location": "11th-hour",
+    "startTime": "2021-10-30T11:05",
+    "endTime": "2021-10-30T12:45"
+  },
+  {
+    "location": "little-seed",
+    "startTime": "2021-11-03T14:00",
+    "endTime": "2021-11-03T15:45"
   }
 ]
