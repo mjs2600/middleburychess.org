@@ -11,6 +11,7 @@ module.exports = {
     author: `@mjs2600`,
   },
   plugins: [
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
