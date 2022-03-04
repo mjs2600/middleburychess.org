@@ -1,17 +1,7 @@
 [
   {
     "location": "little-seed",
-    "startTime": "2022-02-12T09:30",
-    "endTime": "2022-02-12T12:30"
-  },
-  {
-    "location": "little-seed",
-    "startTime": "2022-02-19T09:30",
-    "endTime": "2022-02-19T12:30"
-  },
-  {
-    "location": "little-seed",
-    "startTime": "2022-02-26T09:30",
-    "endTime": "2022-02-26T12:30"
+    "startTime": "2022-03-05T09:30",
+    "endTime": "2022-03-05T12:30"
   }
 ]
