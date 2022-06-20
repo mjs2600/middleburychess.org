@@ -54,7 +54,7 @@
     "@tailwindcss/forms": "0.5.2",
     "autoprefixer": "10.4.7",
     "babel-eslint": "10.1.0",
-    "cssnano": "5.1.10",
+    "cssnano": "5.1.12",
     "eslint": "8.16.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.26.0",
